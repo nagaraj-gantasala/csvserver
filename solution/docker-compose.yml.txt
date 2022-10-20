@@ -1,0 +1,8 @@
+service:
+  
+  web:
+     image: infracloud/csvserver:latest
+      environment:
+        CSVSERVER_BRODER:Orange
+      ports:
+      - "9393:9300"
