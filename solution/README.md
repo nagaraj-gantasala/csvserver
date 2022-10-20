@@ -19,4 +19,4 @@ and run docker-compose up -d
 -- i am not able to run the container with this basic and smaple  yml  
 
 --part III--
-I did not try on it , no idea about prometheus.
+No idea about prometheus.
