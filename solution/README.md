@@ -19,4 +19,13 @@ and run docker-compose up -d
 -- i am not able to run the container with this basic and smaple  yml  
 
 --part III--
-No idea about prometheus.
+partIII
+
+docker pull prom/prometheus:v2.22.0
+
+docker images 
+docker run -p 9393:9393 prom/prometheus	.
+note : instend  od infracloud/csv server image i am run conatiner with prem/premotheus image with post 9090
+instend prometheus.yml tomorrow we can use our own docker-compose.yml for application monotoring in permotheus.
+
+Thank you.
